@@ -64,7 +64,7 @@ DELETE
 WHERE nome = 'Diogo Junior';
 
 /*Selecionando colunas específicas da tabela*/
-SELECT nome "Nome do aluno",
+SELECT nome AS "Nome do aluno",
 	   idade,
 	   matriculado AS "Quando se matriculou"
 FROM aluno;
